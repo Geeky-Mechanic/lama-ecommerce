@@ -12,8 +12,7 @@ import Badge from '@mui/material/Badge';
 
 const Container = styled.div`
 height: 60px;
-background-color: red;
-
+${mobile({backgroundColor: "red"})}
 `;
 
 const Wrapper = styled.div`
